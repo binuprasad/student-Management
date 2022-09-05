@@ -159,7 +159,7 @@ class _AddStudentState extends State<AddStudent> {
 
   String _image = '';
   String imageToString = '';
-
+      
   pickImage() async {
     final image = await ImagePicker().pickImage(source: ImageSource.gallery);
     if (image == null) {
